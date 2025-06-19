@@ -48,7 +48,7 @@ Message: M4 – "The company needs to conduct a price review."
 ```
 /src                      # Java source files  
 SmartSalesAdvisor.java   # Main application file   
-accuracy_calculation2_ing.py # Python validation script  
+Synthetic_Dataset_SmartSalesAdvisor.IPYNB # Python validation script  
 /data                    # Synthetic dataset  
 /figures                 # Decision tree and use case diagrams  
 ```
@@ -57,7 +57,7 @@ accuracy_calculation2_ing.py # Python validation script
 
 To reproduce the model’s accuracy:
 
-1. Run the script `accuracy_calculation2_ing.py`, which:  
+1. Run the script `Synthetic_Dataset_SmartSalesAdvisor.IPYNB`, which:  
    - Generates a synthetic dataset based on inference rules  
    - Trains a decision tree classifier  
    - Evaluates the model using metrics (accuracy, precision, recall, F1-score)  
@@ -66,8 +66,10 @@ To reproduce the model’s accuracy:
 Example output:
 
 ```yaml
-Accuracy: 0.9978  
-Cross-validation scores: [0.9967, 1.0000, ..., 1.0000]
+Accuracy: 0.9993
+Cross-Validation Scores:
+[1.0000, 1.0000, 1.000, 0.9973]
+
 ```
 
 This confirms the consistency and robustness of the decision logic before system deployment.
@@ -80,13 +82,9 @@ MIT License
 
 - Dra. Leticia Dávila Nicanor – Project Lead  
 - Dr. Asdrubal López Chau  
-- Dr. Víctor Landassuri Moreno  
-- Mtro. Alejandro Moreno Martínez  
+- Dr. Víctor Landassuri Moreno   
 - Dra. Marisela Quintana López  
 - Dr. Saturnino Job Morales Escobar
+- Mtro. Alejandro Moreno Martínez 
 
-## How to cite
 
-If you use SmartSalesAdvisor in your research, please cite:
-
-> Dávila-Nicanor, L., Baltazar Escalona, J.C., Landassuri Moreno, V., López Chau, A., & Moreno Martínez, A. (2024). SmartSalesAdvisor: A Decision-Support Tool for Microentrepreneurs Using Business Economics and Inference Trees.
