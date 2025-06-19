@@ -61,7 +61,7 @@ To reproduce the model’s accuracy:
    - Generates a synthetic dataset based on inference rules  
    - Trains a decision tree classifier  
    - Evaluates the model using metrics (accuracy, precision, recall, F1-score)  
-   - Performs 10-fold cross-validation
+   - Performs 4-fold cross-validation
 
 Example output:
 
