@@ -123,7 +123,7 @@ This section provides instructions for developers who wish to compile, run, or e
 
 - The class `SmartSalesAdvisor` initializes the interface and decision logic.
 - The business rules are encoded in the decision tree and can be modified or extended to cover additional scenarios.
-- `accuracy_calculation2_ing.py` provides a validation routine for the decision logic using synthetic data and scikit-learn.
+- `Synthetic_Dataset_SmartSalesAdvisor.ipynb` provides a validation routine for the decision logic using synthetic data and scikit-learn.
 
 For general usage instructions, see the "Usage" section above.
 
