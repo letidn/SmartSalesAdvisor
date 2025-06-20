@@ -86,5 +86,44 @@ MIT License
 - Dra. Marisela Quintana López  
 - Dr. Saturnino Job Morales Escobar
 - Mtro. Alejandro Moreno Martínez 
+## 📘 Developer Guide
 
+This section provides instructions for developers who wish to compile, run, or extend the SmartSalesAdvisor system.
+
+### 🔧 Prerequisites
+
+- Java Development Kit (JDK) 11 or higher
+- Git (for cloning the repository)
+- A Java-compatible IDE (e.g., IntelliJ IDEA, Eclipse)
+
+### 📦 Installation and Execution
+
+1. **Clone the repository** (or download the ZIP file):
+
+   ```bash
+   git clone https://github.com/letidn/SmartSalesAdvisor.git
+   cd SmartSalesAdvisor
+   ```
+
+2. **Compile the Java source** (via terminal or your IDE):
+
+   ```bash
+   javac SmartSalesAdvisor.java
+   ```
+
+3. **Run the application**:
+
+   ```bash
+   java SmartSalesAdvisor
+   ```
+
+> If your project uses multiple source files (e.g., `SmartSalesAdvisor.java`), make sure all files are compiled before execution.
+
+### 🛠 Notes for Extension
+
+- The class `SmartSalesAdvisor` initializes the interface and decision logic.
+- The business rules are encoded in the decision tree and can be modified or extended to cover additional scenarios.
+- `accuracy_calculation2_ing.py` provides a validation routine for the decision logic using synthetic data and scikit-learn.
+
+For general usage instructions, see the "Usage" section above.
 
