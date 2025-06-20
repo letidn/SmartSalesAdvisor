@@ -12,7 +12,7 @@ SmartSalesAdvisor is a Java-based decision-support tool aimed at microentreprene
 - Inference engine based on a deterministic decision tree  
 - Generation of actionable recommendations (alerts, suggestions, confirmations)  
 - Targeted at service-oriented microenterprises  
-- High accuracy (0.9978 with synthetic data)
+- High accuracy (0.9993 with synthetic data)
 
 ## Requirements
 
